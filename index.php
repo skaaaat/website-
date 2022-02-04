@@ -1,7 +1,11 @@
 <?php
 
 /**
- * Shapely functions and definitions.
+ * Shapely functions and definitions///////Четкие функции и определения.
+ *
+ * @ссылка https://developer.wordpress.org/themes/basics/theme-functions/
+ *
+ * @ упаковка Стройная\\\\\\\
  *
  * @link    https://developer.wordpress.org/themes/basics/theme-functions/
  *
@@ -9,7 +13,11 @@
  */
 if ( ! function_exists( 'shapely_setup' ) ) :
 	/**
-	 * Sets up theme defaults and registers support for various WordPress features.
+	 * Sets up theme defaults and registers support for various WordPress features\\\\\\\\Настраивает темы по умолчанию и регистрирует поддержку различных функций WordPress.
+ *
+ * Обратите внимание, что эта функция подключена к крючку after_setup_theme, который
+ * выполняется перед крючком инициализации. Крючок инициализации слишком запоздал для некоторых функций, таких как
+ * как указание на поддержку миниатюр сообщений.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	 *
 	 * Note that this function is hooked into the after_setup_theme hook, which
 	 * runs before the init hook. The init hook is too late for some features, such
